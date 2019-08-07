@@ -1,26 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+//import React from "react";
+//import Split from "./composition/Split";
+//import "./App.css";
+//import Tooltip from "./composition/Tooltip";
+// import "./App.css";
+// import Message from "./Messages";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+import React, { Component } from "react";
+//import TheDate from "./state/TheDate";
+import Counter from "./state/Counter";
+<Counter count={123} />;
+export default Counter;
