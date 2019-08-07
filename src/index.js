@@ -4,5 +4,6 @@ import ReactDOM from "react-dom";
 // import "./index.css";
 // import "./HelloWorld.css";
 import HelloWorld from "./state/HelloWorld";
+import Bomb from "./state/Bomb";
 
-ReactDOM.render(<HelloWorld />, document.getElementById("root"));
+ReactDOM.render(<Bomb />, document.getElementById("root"));
