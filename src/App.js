@@ -1,12 +1,31 @@
-//import React from "react";
-//import Split from "./composition/Split";
-//import "./App.css";
-//import Tooltip from "./composition/Tooltip";
-// import "./App.css";
-// import Message from "./Messages";
-
 import React, { Component } from "react";
-//import TheDate from "./state/TheDate";
-import Counter from "./state/Counter";
-<Counter count={123} />;
-export default Counter;
+import Accordion from "./state-drills";
+
+const sections = [
+  {
+    title: "Our Founder",
+    content:
+      "A passionate Full Stack Web Developer, who is a hard worker, and Porsche enthusiast!"
+  },
+  {
+    title: "Gen-Tech",
+    content:
+      "Gen-Tech is a machine learning data Analytics company! Our company goal is making sure you are informed "
+  },
+  {
+    title: "Contact",
+    content: "support@gen-tech.com"
+  }
+];
+
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Accordion sections={sections} />
+      </div>
+    );
+  }
+}
+
+export default App;

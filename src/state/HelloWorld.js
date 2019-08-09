@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./HelloWorld.css";
 
 class HelloWorld extends Component {
   state = {
@@ -29,7 +30,7 @@ class HelloWorld extends Component {
   };
   render() {
     return (
-      <div className="Message">
+      <div className="message">
         <p> Hello, {this.state.who}! </p>
 
         {/* <button onClick={() => this.setState({ who: "world" })}>World</button>

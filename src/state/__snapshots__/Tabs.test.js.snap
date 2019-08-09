@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs Component render the first tab by default 1`] = `
+<div>
+  <button
+    onClick={[Function]}
+  >
+    About us
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    Services
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    Contact
+  </button>
+  <div
+    className="content"
+  >
+    At InnovateX we provide the highest quality products for the aero Space Industry.
+  </div>
+</div>
+`;
+
+exports[`Tabs Component renders empty given no tabs 1`] = `<div />`;
